@@ -11,7 +11,7 @@
     "plugin_args": ["-loglevel=warning"],
     "plugin_mode": "tcp_and_udp",
     "user": {
-        "name": "killian",
+        "name": "default",
         "auth_config_path": "/opt/shadowsocks-rust/config/auth.json"
     }
 }
