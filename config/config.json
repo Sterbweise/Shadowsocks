@@ -1,0 +1,17 @@
+{
+    "server": "0.0.0.0",
+    "server_port": 8388,
+    "method": "chacha20-ietf-poly1305",
+    "password": "CCPmbzu1LQIs7BkqyCdh4OAf",
+    "mode": "tcp_and_udp",
+    "timeout": 7200,
+    "nameserver": "1.1.1.1",
+    "plugin": "v2ray-plugin",
+    "plugin_opts": "server;host=proxy.astrumia.com",
+    "plugin_args": ["-loglevel=warning"],
+    "plugin_mode": "tcp_and_udp",
+    "user": {
+        "name": "killian",
+        "auth_config_path": "/opt/shadowsocks-rust/config/auth.json"
+    }
+}
